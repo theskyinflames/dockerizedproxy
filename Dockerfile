@@ -1,7 +1,7 @@
 FROM golang:1.7
 
 # Install apache 2 for testing purposes
-RUN apt-get update;apt-get -y upgrade; apt-get install -y apache2
+RUN apt-get update;apt-get -y upgrade
 
 # Environment
 RUN mkdir -p /proxy/src

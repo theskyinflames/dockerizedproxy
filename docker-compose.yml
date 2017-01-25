@@ -7,4 +7,3 @@ services:
       - PROXY_OPTS=-l :4002 -r externos.hotetec.com:80 -c -vv
     ports:
       - 8998:4002
-      - 9000:80
